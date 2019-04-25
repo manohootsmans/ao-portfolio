@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.403" height="25.307" viewBox="0 0 39.403 25.307">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3d68ad;
+        stroke-linecap: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g id="Down_Arrow" data-name="Down Arrow" transform="translate(-951.799 -1011.347)">
+    <line id="Line_5" data-name="Line 5" class="cls-1" y2="19.789" transform="translate(957.455 1017.004) rotate(-45)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-1" y2="19.789" transform="translate(985.545 1017.004) rotate(45)"/>
+  </g>
+</svg>
