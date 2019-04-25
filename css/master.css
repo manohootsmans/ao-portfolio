@@ -15,10 +15,21 @@
     font-style: normal;
 
 }
-
+@media (min-width: 10px){
+  .landing-page{
+    background-image: url(../img/bg-mobile.svg);
+    background-size: 70%;
+  }
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .landing-page{
+    background-size: 100%;
+  }
+  .title{
+    margin-top: 0;
   }
 }
 
@@ -26,11 +37,18 @@
   .container {
     max-width: 720px;
   }
+  .landing-page{
+    background-image: url(../img/bg.svg);
+    background-size: 75%;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
+  }
+  .landing-page{
+    background-size: 70%;
   }
 }
 
@@ -38,11 +56,17 @@
   .container {
     max-width: 1140px;
   }
+  .landing-page{
+    background-size: 70%;
+  }
 }
 
 @media (min-width: 1400px) {
   .container {
     max-width: 1364px;
+  }
+  .landing-page{
+    background-size: 65%;
   }
 }
 
@@ -61,12 +85,12 @@ body{
   width: 100%;
   position: relative;
 
-  background-image: url(../img/bg.svg);
+
   background-repeat: no-repeat;
   background-position: right top;
 }
 .navbar{
-  padding: 50px;
+  padding: 50px 0 50px 0;
 }
 
 nav ul a{
@@ -78,7 +102,6 @@ nav ul a:hover{
   color: #CCC
 }
 .title{
-  margin-top: 250px;
   font-size: 60px;
   font-family: 'product_sansbold';
   font-weight: normal;
@@ -87,11 +110,12 @@ nav ul a:hover{
 .sub-title{
   color: #707070;
 }
+.title-under{
+  text-align: center;
+}
+
 .illustration{
-  position: absolute;
-  height: 500px;
-  top: 190px;
-  right: 21%;
+  width: 100%;
 }
 .arrow-down{
   position: absolute;

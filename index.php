@@ -16,22 +16,33 @@
     <div class="landing-page">
       <div class="container">
 
-        <nav class="navbar navbar-light">
-          <a class="navbar-brand" href="#">
-            <img src="img/logo.svg" alt="">
-          </a>
-          <ul class="nav smooth-scroll justify-content-end">
-            <a class="nav-link js-scroll-trigger" href="#">Home</a>
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-            <a class="nav-link" href="#">About me</a>
-            <a class="nav-link" href="#">Contact</a>
-          </ul>
-        </nav>
+        <nav class="navbar nav navbar-light">
+          <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
 
-        <h1 class="title">Mano Hootsmans</h1>
-        <h2 class="sub-title">Webdeveloper.</h2>
+            <ul class="nav justify-content-end">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+              <a class="nav-link" href="#">About me</a>
+              <a class="nav-link" href="#">Contact</a>
+            </ul>
+          </nav>
 
-        <img class="illustration" src="img/illustration.svg" alt="">
+        <div class="row align-items-center">
+          <div class="col-12 d-none d-md-block  col-md-6 title-container">
+            <h1 class="title">Mano Hootsmans</h1>
+            <h2 class="sub-title">Webdeveloper.</h2>
+          </div>
+
+          <div class="offset-md-1 offset-2 offset-lg-0 col-8 col-md-5">
+            <img class="illustration" src="img/illustration.svg" alt="">
+          </div>
+
+          <div class="d-md-none col-12  col-md-6 title-container">
+            <h1 class="title">Mano Hootsmans</h1>
+            <h2 class="sub-title">Webdeveloper.</h2>
+          </div>
+
+        </div>
+
 
         <div class="">
           <a href="#projects"><img class="arrow-down" src="img/arrow-down.svg" alt=""></a>
@@ -46,37 +57,45 @@
         <h2 class="page-title col-12">Projects</h2>
 
         <div class="row">
-          <div class="project-item col-5">
+          <div class="project-item col-12 col-md-5">
             <h3 class="white">WijWhy.nl</h3>
-
             <div class="project-img-container">
               <img class="project-img" src="img/wijwhy.nl.png" alt="">
-              <div class="overlay overlayBottom" href="google.nl">
-                <div class="overlay-text"> <a href="https://www.google.com">Click for more info</a> </div>
-
+              <div class="overlay overlayBottom">
+                <div class="overlay-text"> <a href="#">More info</a> </div>
               </div>
             </div>
-
           </div>
 
-          <div class="project-item offset-2 col-5">
-            <h3 class="white">Website.nl</h3>
-            <img class="project-img" src="https://via.placeholder.com/1920x1080" alt="">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="project-item col-5">
-            <h3 class="white">Website.nl</h3>
-            <img class="project-img" src="https://via.placeholder.com/1920x1080" alt="">
+          <div class="project-item col-12 col-md-5 offset-md-2">
+            <h3 class="white">Website.com</h3>
+            <div class="project-img-container">
+              <img class="project-img" src="https://via.placeholder.com/1920x1080" alt="">
+              <div class="overlay overlayBottom">
+                <div class="overlay-text"> <a href="#">More info</a> </div>
+              </div>
+            </div>
           </div>
 
-          <div class="project-item offset-2 col-5">
-            <h3 class="white">Website.nl</h3>
-            <img class="project-img" src="https://via.placeholder.com/1920x1080" alt="">
+          <div class="project-item col-12 col-md-5">
+            <h3 class="white">Website.com</h3>
+            <div class="project-img-container">
+              <img class="project-img" src="https://via.placeholder.com/1920x1080" alt="">
+              <div class="overlay overlayBottom">
+                <div class="overlay-text"> <a href="#">More info</a> </div>
+              </div>
+            </div>
           </div>
-        </div>
 
+          <div class="project-item col-12 col-md-5 offset-md-2">
+            <h3 class="white">Website.com</h3>
+            <div class="project-img-container">
+              <img class="project-img" src="https://via.placeholder.com/1920x1080" alt="">
+              <div class="overlay overlayBottom">
+                <div class="overlay-text"> <a href="#">More info</a> </div>
+              </div>
+            </div>
+          </div>
 
       </div>
     </div>
