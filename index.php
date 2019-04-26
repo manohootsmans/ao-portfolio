@@ -8,55 +8,87 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- My CSS -->
     <link rel="stylesheet" href="css/master.css">
 
-    <title>Mano Hootsmans | Webdeveloper</title>
+    <!-- WEBSITE TITLE -->
+    <title>Mano Hootsmans | Webdev</title>
+
   </head>
   <body>
-    <div class="landing-page">
+
+        <!--
+     _    _
+    | |  | |
+    | |__| |  ___   _ __ ___    ___  _ __    __ _   __ _   ___
+    |  __  | / _ \ | '_ ` _ \  / _ \| '_ \  / _` | / _` | / _ \
+    | |  | || (_) || | | | | ||  __/| |_) || (_| || (_| ||  __/
+    |_|  |_| \___/ |_| |_| |_| \___|| .__/  \__,_| \__, | \___|
+                                   | |             __/ |
+                                   |_|            |___/        -->
+    <div class="homepage">
       <div class="container">
 
-        <nav class="navbar nav navbar-light">
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar navbar-expand-sm">
           <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
-
-            <ul class="nav justify-content-end">
-              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-              <a class="nav-link" href="#">About me</a>
-              <a class="nav-link" href="#">Contact</a>
-            </ul>
+            <div class="collapse navbar-collapse justify-content-end">
+              <ul class="nav">
+                <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                <a class="nav-link" href="#about-me">About me</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </ul>
+            </div>
           </nav>
 
-        <div class="row align-items-center">
-          <div class="col-12 d-none d-md-block  col-md-6 title-container">
-            <h1 class="title">Mano Hootsmans</h1>
-            <h2 class="sub-title">Webdeveloper.</h2>
+          <div class="row row-home align-items-center">
+
+            <!-- TITLE MOBILE -->
+            <div class="title-container d-none d-lg-block">
+              <h1 class="title">Mano Hootsmans</h1>
+              <h2 class="subtitle">Fullstack Webdeveloper.</h2>
+            </div>
+
+            <!-- ILLUSTATION -->
+            <div class="illustration-container col-10 offset-1 col-md-8 offset-md-2 col-lg-5 offset-lg-2 offset-xl-3">
+              <img class="illustration" src="img/illustration.svg" alt="">
+            </div>
+
+            <!-- TITLE DESKTOP -->
+            <div class="title-container col-12 d-lg-none">
+              <h1 class="title">Mano Hootsmans</h1>
+              <h2 class="subtitle">Fullstack Webdeveloper.</h2>
+            </div>
+
+            <!-- ARROW -->
+            <div>
+              <a href="#projects"><img class="arrow-down" src="img/arrow-down.svg" alt=""></a>
+            </div>
+
           </div>
-
-          <div class="offset-md-1 offset-2 offset-lg-0 col-8 col-md-5">
-            <img class="illustration" src="img/illustration.svg" alt="">
-          </div>
-
-          <div class="d-md-none col-12  col-md-6 title-container">
-            <h1 class="title">Mano Hootsmans</h1>
-            <h2 class="sub-title">Webdeveloper.</h2>
-          </div>
-
-        </div>
-
-
-        <div class="">
-          <a href="#projects"><img class="arrow-down" src="img/arrow-down.svg" alt=""></a>
-        </div>
 
       </div>
     </div>
 
+    <!--
+     _____              _              _
+    |  __ \            (_)            | |
+    | |__) |_ __  ___   _   ___   ___ | |_  ___
+    |  ___/| '__|/ _ \ | | / _ \ / __|| __|/ __|
+    | |    | |  | (_) || ||  __/| (__ | |_ \__ \
+    |_|    |_|   \___/ | | \___| \___| \__||___/
+                     _/ |
+                    |__/                       -->
     <div id="projects"class="projects-page">
       <div class="container">
 
-        <h2 class="page-title col-12">Projects</h2>
+        <!-- PAGE TITLE -->
+        <h2 class="page-title col-12 white">Projects</h2>
+
 
         <div class="row">
+
+          <!-- PROJECT 1 -->
           <div class="project-item col-12 col-md-5">
             <h3 class="white">WijWhy.nl</h3>
             <div class="project-img-container">
@@ -67,6 +99,7 @@
             </div>
           </div>
 
+          <!-- PROJECT 2 -->
           <div class="project-item col-12 col-md-5 offset-md-2">
             <h3 class="white">Website.com</h3>
             <div class="project-img-container">
@@ -77,6 +110,7 @@
             </div>
           </div>
 
+          <!-- PROJECT 3 -->
           <div class="project-item col-12 col-md-5">
             <h3 class="white">Website.com</h3>
             <div class="project-img-container">
@@ -87,6 +121,7 @@
             </div>
           </div>
 
+          <!-- PROJECT 4 -->
           <div class="project-item col-12 col-md-5 offset-md-2">
             <h3 class="white">Website.com</h3>
             <div class="project-img-container">
@@ -100,6 +135,22 @@
       </div>
     </div>
 
+<!--       _                    _
+    /\    | |                  | |
+   /  \   | |__    ___   _   _ | |_     _ __ ___    ___
+  / /\ \  | '_ \  / _ \ | | | || __|   | '_ ` _ \  / _ \
+ / ____ \ | |_) || (_) || |_| || |_    | | | | | ||  __/
+/_/    \_\|_.__/  \___/  \__,_| \__|   |_| |_| |_| \___|  -->
+    <div id="about-me"class="about-me">
+      <div class="container">
+
+        <h2 class="page-title col-12 blue">About me</h2>
+
+        <div class="row">
+
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
