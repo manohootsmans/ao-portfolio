@@ -10,22 +10,37 @@
 
     <link rel="stylesheet" href="css/master.css">
 
+    <link rel="stylesheet" href="css/mq.css">
+
   </head>
   <body>
     <footer>
       <div class="container">
-        <div class="brand col-12">
-          <img class="footer-logo" src="img/logo-footer.png" alt="">
-        </div>
+        <div class="row">
+          <div class="col-md-3 footer-media">
+            <a href="index.php"><img src="img/logo.svg" alt=""> </a>
+          </div>
+          <div class="footer-links col-md-9 align-right">
+            <a href="#">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about-me">About me</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="col-md-12">
+            <hr>
+          </div>
+          <div class="col-md-6 copyright">
+            <p class="align-left">© Copyright 2019 Mano Hootsmans - All Rights Reserved</p>
+          </div>
+          <div class="col-md-6 social-icons">
+            <span><a href="#"><img src="img/icon-github.svg" alt="github"></a></span>
+            <span><a href="#"><img src="img/icon-linkedin.svg" alt="github"></a></span>
 
-        <div class="links white col-6 offset-3">
-          <h3>Links</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+              <a href="#"><img src="img/icon-insta.svg" alt="github"></a>
+              <a href="#"><img src="img/icon-snap.svg" alt="github"></a>
+              <a href="#"><img src="img/icon-twitter.svg" alt="github"></a>
+
+          </div>
         </div>
       </div>
     </footer>

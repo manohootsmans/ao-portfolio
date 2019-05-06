@@ -45,7 +45,7 @@
 
             <!-- TITLE MOBILE -->
             <div class="title-container d-none d-lg-block">
-              <h1 class="title">Mano Hootsmans</h1>
+              <h1 class="title bold">Mano Hootsmans</h1>
               <h2 class="subtitle">Fullstack Webdeveloper.</h2>
             </div>
 
@@ -56,7 +56,7 @@
 
             <!-- TITLE DESKTOP -->
             <div class="title-container col-12 d-lg-none">
-              <h1 class="title">Mano Hootsmans</h1>
+              <h1 class="bold">Mano Hootsmans</h1>
               <h2 class="subtitle">Fullstack Webdeveloper.</h2>
             </div>
 
@@ -83,7 +83,7 @@
       <div class="container">
 
         <!-- PAGE TITLE -->
-        <h2 class="page-title col-12 white">Projects</h2>
+        <h2 class="page-title bold col-12 white">Projects</h2>
 
 
         <div class="row">
@@ -144,7 +144,7 @@
     <div id="about-me"class="about-me">
       <div class="container">
 
-        <h2 class="page-title col-12 blue">About me</h2>
+        <h2 class="page-title bold col-12 blue">About me</h2>
 
         <div class="row">
 

@@ -26,8 +26,14 @@ body {
 .blue{
   color: #3D68AD;
 }
+.bold{
+  font-family: 'product_sansbold';
+  font-weight: normal;
+  font-style: normal;
+}
 img{
   width: 100%;
+  height: 100%;
 }
 
 /* NAVBAR */
@@ -68,11 +74,6 @@ img{
 .title-container{
   text-align: center;
 }
-.title{
-  font-family: 'product_sansbold';
-  font-weight: normal;
-  font-style: normal;
-}
 .subtitle{
   color: #707070;
   font-size: 25px;
@@ -84,6 +85,7 @@ img{
   bottom: 40px;
   left: calc(50% - 20px);
   width: 40px;
+  height: 30px;
 }
 
 /* CHANGE BG IMAGE AT MD */
@@ -136,9 +138,6 @@ img{
 /* PAGE TITLE */
 .page-title{
   font-size: 50px;
-  font-family: 'product_sansbold';
-  font-weight: normal;
-  font-style: normal;
   text-align: center;
   padding-top: 100px;
   margin-bottom: 100px;
@@ -205,35 +204,45 @@ img{
   background-color: #FFF;
 }
 
-
+/* FOOTER */
 
 footer{
   background-color: #303030;
+  padding: 50px 0 50px 0;
 }
-.footer-logo{
-  padding: 75px 0 75px 0;
-  width: 100%;
+.footer-media a img{
+  height: 5rem;
+  margin-bottom: 1rem;
 }
-.brand{
-  height: 100%;
+.align-right {
+  text-align: right;
 }
-.brand-name{
-  font-family: 'product_sansbold';
-  font-weight: normal;
-  font-style: normal;
-  line-height: 100%;
+.align-left{
+  text-align: left;
+}
+.footer-links a{
+  font-size: 20px;
+  padding: 10px;
   color: white;
-  text-align: center;
-}
-
-.links ul li a{
-  color: white;
+  transition: 0.2s;
   text-decoration: none;
-  transition: .2s;
 }
-.links ul li a:hover{
+.footer-links a:hover{
   color: #3D68AD;
 }
-.links ul li{
-  list-style-type: none;
+footer hr{
+  margin: 1rem 0;
+  border-color: #fff;
+  opacity: .05;
+}
+footer .copyright p{
+  color: grey;
+}
+footer .social-icons img{
+  height: 5rem;
+}
+@media (max-width: 767px) {
+  .align-right, .align-left{
+    text-align: center;
+  }
 }
