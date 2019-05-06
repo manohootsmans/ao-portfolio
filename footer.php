@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/master.css">
 
-    <link rel="stylesheet" href="css/mq.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   </head>
   <body>
@@ -32,14 +32,12 @@
           <div class="col-md-6 copyright">
             <p class="align-left">© Copyright 2019 Mano Hootsmans - All Rights Reserved</p>
           </div>
-          <div class="col-md-6 social-icons">
-            <span><a href="#"><img src="img/icon-github.svg" alt="github"></a></span>
-            <span><a href="#"><img src="img/icon-linkedin.svg" alt="github"></a></span>
-
-              <a href="#"><img src="img/icon-insta.svg" alt="github"></a>
-              <a href="#"><img src="img/icon-snap.svg" alt="github"></a>
-              <a href="#"><img src="img/icon-twitter.svg" alt="github"></a>
-
+          <div class="col-md-6 social-icons align-right">
+            <a href="https://github.com/manohootsmans" target="_blank"><i class=" fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mano-hootsmans-694504179/" target="_blank"><i class=" fab fa-linkedin-in "></i></a>
+            <a href="https://www.instagram.com/mano.jpeg/" target="_blank"><i class=" fab fa-instagram "></i></a>
+            <a href="https://twitter.com/manohootsmans" target="_blank"><i class=" fab fa-twitter"></i></a>
+            <a href="https://www.snapchat.com/add/gewoonmano" target="_blank"><i class=" fab fa-snapchat-ghost"></i></a>
           </div>
         </div>
       </div>

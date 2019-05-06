@@ -246,3 +246,11 @@ footer .social-icons img{
     text-align: center;
   }
 }
+.social-icons a i{
+  color: grey;
+  margin: 5px;
+  transition: 0.3s
+}
+.social-icons a i:hover{
+  color: white;
+}
